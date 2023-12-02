@@ -1,0 +1,67 @@
+.skill-container{
+    height: 100vh;
+    width:87vw;
+}
+
+.skills{
+    height:100%;
+    width:100%;
+}
+
+.skillcard-container{
+    height: 7rem;
+    width:100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-right-container{
+    width: 100%;
+}
+.skill-icon{
+height:4rem;
+width:4rem;
+}
+.skill-txt{
+    font-family: IBM Plex Sans;
+}
+.skill-1{
+    width: 90%;
+    /* height: 100%; */
+    padding: 0 2rem;
+    margin: auto;
+    /* display: flex;
+    justify-content: flex-end; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1.5rem;
+}
+.skills-heading{
+    width: 100%;
+    height:auto;
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-family: IBM Plex Sans;
+    font-weight: normal;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+.skill-heading-txt{
+    margin-left: 5rem;
+    width:fit-content;
+    padding-left: 1rem;
+    height: auto;
+    text-align: center;
+    border-left: 4px solid salmon;
+}
+
+.progressbar>div>div>span{
+display: none !important;
+}
+
+.skill-icon img{
+    width: 90%;
+}
+

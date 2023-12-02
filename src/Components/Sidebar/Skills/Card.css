@@ -1,0 +1,97 @@
+.card-container{
+    height: 13rem;
+    width: 25rem;
+    display: flex;
+    /* gap: 2rem; */
+    
+}
+.txt-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+.upper-txt{
+    color: #141313;
+    font-family: IBM Plex Sans;
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.5rem; /* 133.333% */
+
+}
+.desc-txt{
+    width: 12.5rem;
+    color: #141313;
+    font-family: IBM Plex Sans;
+    font-size: 2.5rem;
+    font-style:normal;
+    font-weight:900;
+    line-height: 2.5rem;
+    margin-top: 0.5rem;
+    /* word-break: break-all; */
+}
+.icon-container{
+    height: 4rem;
+    width: 4rem;
+    margin-top: 1.5rem;
+    margin-bottom:0;
+    transform: rotate(0deg);
+    transition: all ease-in 0.3s;
+} 
+.icon-container img{
+    fill: #141313;
+}
+.icon-container:hover{
+  transform: rotate(45deg);
+}
+.image-container img{
+    height:15rem;
+     width:19rem;
+}
+.image-container{
+    position: relative;
+    height: 15rem;
+    /*width: 19rem; */
+    overflow: hidden;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.after-text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    /* z-index:5; */
+    /* bottom: 2rem; */
+    transform: translateY(40px);
+    opacity: 0;
+    transition: 0.4s;
+}
+.image-container:hover .after-text{
+    transform: translateY(0px);
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    outline: none;
+    border: none;
+}
+.txt-on-image{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff ;
+    font-family: IBM Plex Sans;
+    font-size: 1.125rem;
+    /* font-style: italic; */
+    font-weight: 600;
+    line-height: 1.5rem; 
+}

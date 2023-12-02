@@ -1,0 +1,62 @@
+.parent-container{
+height: 100%;
+width:87vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.projects-container{
+    height: 90%;
+    width:  90%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  
+}
+.projects{
+    height: 100%;
+    width:   100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap:wrap;
+    gap:4rem;
+    column-gap:9rem;
+
+}
+.pro-tittle{
+color: #141313;
+font-family: IBM Plex Sans;
+font-size: 1.125rem;
+font-style: italic;
+font-weight: 600;
+line-height: 1.5rem; /* 133.333% */
+}
+.pro-rp{
+    color: #141313;
+font-family: IBM Plex Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.5rem; /* 116.667% */
+text-transform: uppercase;
+/* margin-top: 1rem; */
+}
+.more-pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 1rem; */
+}
+.txt-button a{
+    color: white;
+}
+@media (max-width:1320px) {
+    .card-container{
+        flex-direction: column;
+        height: 25rem;
+    }
+    .txt-container{
+        width: 100%;
+    }
+}

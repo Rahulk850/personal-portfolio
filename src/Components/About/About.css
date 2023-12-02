@@ -1,0 +1,341 @@
+.left-content{
+    position: relative;
+    margin-left: 4rem;
+    width: 35%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* border: 1px solid red; */
+}
+.signature{
+    /* border: 2px solid blue; */
+    position: absolute;
+    height: 9rem;
+    width: 13rem;
+   top: 16rem;
+   right:4rem;
+  
+}
+.signature img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* rotate: 45deg; */
+}
+.right-content{
+    /* padding-top: 4rem; */
+    margin-left: 2rem;
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+.welcome{
+    color: #141313;
+    font-family: IBM Plex Sans;
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.5rem; /* 133.333% */
+}
+
+.tittle{
+    margin-top: 1rem;
+    color: #141313;
+    font-family: IBM Plex Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem; /* 116.667% */
+    text-transform: uppercase;
+
+}
+.pro-image{
+    height: 20rem;
+    width: 20rem;
+    /* margin-left: 5rem; */
+    margin-top: 2rem;
+    /* border: 1px solid green; */
+    border:3px solid transparent;
+
+    /* background: linear-gradient(270deg, #FFB147 5.74%, #FF6C63 50.64%, #B86ADF 92.05%); */
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* color: #FFB147, #FF6C63, #B86ADF; */
+}
+.pro-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    /* animation: animatepro 10s linear infinite; */
+    
+}
+.aboutpage{
+    padding-top: 2rem;
+    width: 87vw;
+}
+
+@keyframes animatepro {
+    25%{
+        scale: 1.1;
+        margin-left: -1rem;
+    }
+    50%{
+        /* height: 90%;
+        width: 90%; */
+        /* scale: 1.2; */
+        scale: 1;
+        margin-top: -1rem;
+        margin-bottom: -1rem;
+    }
+    75%{
+        scale: 1.1;
+        margin-right: -1rem;
+    }
+    
+}
+.left-txt{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.name{
+font-family: IBM Plex Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 800;
+line-height: 3rem; /* 100% */
+letter-spacing: -0.15rem;
+text-transform: uppercase;
+background: linear-gradient(270deg, #FFB147 5.74%, #FF6C63 50.64%, #B86ADF 92.05%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.download-cv{
+    margin-top: 1.5rem;
+    text-decoration-line: underline;
+    color: #141313;
+    font-family: IBM Plex Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; 
+}
+.download-cv img{
+    margin-left: 0.7rem;
+    height: 0.8rem;
+    width: 0.8rem ;
+}
+.upper-details{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+hr{
+stroke-width: 1px;
+stroke: #141313;
+opacity: 0.2;
+}
+.cntct2{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    font-family: IBM Plex Sans;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    /* line-height: 1rem; */
+    gap: 3rem;
+    flex-wrap: wrap;
+    }
+
+.upper-1{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    gap: 4rem;
+}
+.upper-2{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 5rem;
+}
+.about-1-head{
+text-align: center;
+font-family: IBM Plex Sans;
+font-size: 2rem;
+font-style: normal;
+font-weight: 900;
+line-height: 3rem; /* 100% */
+letter-spacing: -0.15rem;
+/* text-transform: uppercase; */
+background: linear-gradient(270deg, #FFB147 5.74%, #FF6C63 50.64%, #B86ADF 92.05%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.pu{
+text-decoration-line:underline;
+text-align: center;
+letter-spacing:0.10rem;
+color:#141313;
+font-family: IBM Plex Sans;
+font-size: 1.1rem;
+font-style: italic;
+font-weight: 700;
+margin-bottom: 1.5rem;
+/* line-height: 1.25rem;  */
+/* text-transform: lowercase;111.111% */
+}
+.about-1-para{
+ color: #141313;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: IBM Plex Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 133.333% */
+}
+.about-1-para span{
+    color: #B86ADF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: IBM Plex Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem;
+}
+.left-down-1{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.left-down-2{
+    margin-top: 2rem;
+    width: 100%;
+    height:fit-content;
+    background-color: #141313;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding: 1rem;
+    /* width: 100%; */
+    height: 100%;
+    overflow: hidden; /* Hide any overflow text */
+    text-overflow: ellipsis; /* Add an ellipsis (...) for overflow text */
+    font-size: 4vw; 
+}
+.quote p{
+min-height: 6rem;
+width: 75%;
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: IBM Plex Sans;
+font-size: 1.2rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2rem; /* 160% */
+margin-left: 1rem;
+
+/* overflow: hidden; Ensures the content is not revealed until the animation */
+/* border-right: 0.2rem solid orange; The typwriter cursor */
+/* white-space: nowrap;Keeps the content on a single line */
+/* margin: 0 auto; Gives that scrolling effect as the typing happens */
+/* letter-spacing: .15em; Adjust as needed */
+/* animation:  */
+  /* typing 3.5s steps(100, end), */
+  /* blink-caret .75s  step-end infinite; */
+}
+
+.box-1,.box-2, .box-3, .box-4{
+    width: 50%;
+    word-break: break-all;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% ;
+        height: 100%; }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  @media (max-width:934px) {
+
+   
+    .aboutpage{
+        height: 100%;
+        padding:2rem 0;
+    }
+
+    .content2{
+        flex-direction: column;
+        /* font-size: 60%; */
+    }
+
+    
+    .left-content{
+        margin-left: 0;
+        width:55% ;
+    }
+    .left-txt{
+        align-items: flex-start;
+    }
+    .left-down-1{
+        flex-direction: column;
+    }
+    .about-1-head , .pu{
+        text-align: start;
+    }
+    .right-content{
+       
+        height:100%;
+        /* border: 1px solid blue; */
+    }
+    .upper-1, .upper-2{
+        align-items: flex-start;
+    }
+
+  }
+
+  @media (max-width:640px) {
+    .left-content , .right-content{
+        width: 90%;
+        margin: auto;
+    }
+  }
+  @media (max-width:1194px){
+    .sidebar{
+        height: auto !important;
+    }
+
+    .right-content{
+        height: 100%;
+    }
+  }
